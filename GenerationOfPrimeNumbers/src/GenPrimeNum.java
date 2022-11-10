@@ -15,7 +15,7 @@ public class GenPrimeNum {
         return arrayLength;
     }
 
-//2222
+
     public static int[] sequenceT(int length, int arrayLength){
         int[] sequence;
         sequence = new int[arrayLength];
@@ -37,7 +37,7 @@ public class GenPrimeNum {
         return true;
     }
 
-//3333
+
     public static long minPrime(int amountOfBit){
         int border1 = (int) Math.pow(2,amountOfBit - 1);
         int border2 = (int) Math.pow(2,amountOfBit) - 1;
@@ -63,7 +63,7 @@ public class GenPrimeNum {
         return N;
     }
 
-//6666
+
     public static long[] sequenceY(long[] sequenceY, long c, int rm){
         if(rm == 0)
             return null;
@@ -76,7 +76,6 @@ public class GenPrimeNum {
         return sequenceY;
     }
 
-//7777
     public static BigInteger sumY(long[] sequenceY, int rm){
         BigInteger sumY = BigInteger.valueOf(0);
         BigInteger two = BigInteger.TWO;
@@ -110,7 +109,6 @@ public class GenPrimeNum {
         return result;
     }
 
-//13
     public static boolean checkIfIsPrime(BigInteger n, int k, BigInteger pRight, BigInteger pLeft){
         boolean check = true;
 
@@ -183,11 +181,3 @@ public class GenPrimeNum {
             System.out.println("is prime");
     }
 }
-
-
-/*          МОЖНО СДЕЛАТЬ UNSIGNED LONG
-    Long l1 = Long.parseUnsignedLong("18446744073709551615");
-    String l1Str = Long.toUnsignedString(l1);
-    System.out.println(l1Str);
-
- */
